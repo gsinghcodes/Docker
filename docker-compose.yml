@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  postgres-container:
+    image: postgres #pulls from hub.docker
+    ports:
+      -'5432:5432'
+    environment:
+      - name=value
+  
+  redis:
+    image: redis
+    ports:
+      -6379:6379
+
+#docker compose up to run these containers (can use sudo if get problem in ubuntu or mac)
