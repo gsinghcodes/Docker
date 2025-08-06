@@ -14,3 +14,5 @@ services:
       -6379:6379
 
 #docker compose up to run these containers (can use sudo if get problem in ubuntu or mac)
+#docker compose down to exit
+#docker compose detached runs in background
